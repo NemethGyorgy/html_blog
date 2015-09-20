@@ -1,0 +1,88 @@
+/* Alap beállítások. */
+html {
+    height: 100%;
+    overflow: auto;
+}
+body {
+    background: linear-gradient(rgb(61,72,71),rgb(255,255,255));
+    overflow: auto;
+    height: 100%;
+}
+
+/* Tartalom. */
+.content, .sidebar {
+    background-color: white;
+    border-radius: 3px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 2px -1px grey;
+}
+.sidebar {
+    margin-right: 10px;
+}
+
+/* Cikk.*/
+.cikk {
+    margin-bottom: 50px;
+}
+.cikk h2 {
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+.cikk h3 {
+    font-style: italic;
+    margin: 0 0 30px 0;
+}
+.cikk-kep {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.cikk .text {
+    text-align: justify;
+}
+.cikk-kep img {
+    max-width: 312px;
+    }
+.cikk-divider {
+    margin: 65px auto 20px auto;
+    width: 80%;
+    border: solid 2px lavender;
+    height: 2px;
+}
+.divider {
+    margin: 10px auto 10px auto;
+    width: 80%;
+    border: solid 2px lavender;
+    height: 2px;
+}
+
+/* Profil. */
+.sidebar-section {
+margin-bottom: 30px;
+}
+.profil-holder {
+    background-color: rgb( 220, 220, 220 );
+    border-radius: 20px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.profil-holder img {
+    width: 40px;
+    height: 40;
+    float: left;
+    border-radius: 50%;
+}
+.profile-holder span {
+    display: inline-block;
+    padding: 10px;
+}
+/* Helper. */
+.align-center {
+    text-align: center;
+}
+.big-circle-img {
+    max-width: 250px;
+    border-radius: 50%;
+}
+.text-justify {
+    text-align: justify;
+}
